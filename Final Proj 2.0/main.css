@@ -1,0 +1,65 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme';
+}
+
+
+body{
+
+    background-color: rgb(69, 233, 145);
+}
+
+table {
+     
+     border-collapse: collapse;
+     border-spacing:0;
+     margin:15px auto;
+     background-color: #94e6f5;
+
+}
+
+table tr td {
+      width: 135px ;
+      height: 135px;
+      border: 8px solid black;
+      font-size:100px;
+      text-align:center;
+
+}
+
+table tr td:hover{
+        background-color:#2c3531;
+        cursor:pointer;
+}
+
+.winner {
+    width:150px;
+    height: 90px;
+    margin: 1px auto;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid rgb(236, 142, 54);
+    border-radius: 20px;
+}
+
+.winner span{
+    font-size: 27px;
+    display: block;
+}
+button {
+    width: 100px;
+    height: 60px;
+    margin: 5px auto;
+    display:block;
+    border:2px solid rgb(243, 142, 47);
+    border-radius: 10px;
+    background-color: #3ee74c;
+    font-size: 22px;
+
+}
+
+button:hover{
+    cursor:pointer;
+}
